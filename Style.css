@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url("https://i.ibb.co/1K1dz0S/dj-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+/* Container */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 480px;
+    margin: auto;
+    backdrop-filter: blur(3px);
+}
+
+/* Title */
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Buttons section */
+.social-buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: 0.3s;
+}
+
+/* Instagram */
+.instagram {
+    background: #E1306C;
+}
+
+/* YouTube */
+.youtube {
+    background: #FF0000;
+}
+
+/* Twitter */
+.twitter {
+    background: #1DA1F2;
+}
+
+.social-buttons a:hover {
+    opacity: 0.8;
+}
+
+/* Icons */
+.social-buttons img {
+    width: 28px;
+}
